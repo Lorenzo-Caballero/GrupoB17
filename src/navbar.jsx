@@ -5,6 +5,9 @@ import miImagen from '../src/assets/logo.jpg';
 function Navbar() {
   return (
     <nav className="navbar">
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i> 
+      </div>
       <ul className="ulnavbar">
             <li><a href="about.asp">Contacto</a></li>
             <li><a href="contact.asp">Nuestros Productos</a></li>
@@ -20,7 +23,7 @@ function Navbar() {
                 fill="currentColor"
             >
                 <path
-                fillRule="evenodd"
+                fillRule="evenodd"no
                 d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                 clipRule="evenodd"
                 />
