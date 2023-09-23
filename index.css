@@ -1,1 +1,41 @@
+body{
+    background-color: rgb(254, 241, 224);
+}
+
+.carousel-item img{
+    height: 80vh;
+}
+
+.titulo_qs{
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: underline 2px;
+}
+
+.cont_imgtext{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#imgfamiliar{
+    border-radius: 50%;
+    border: solid 2px;
+    border-top-color: #f21616;
+    border-right-color:#038C3E;
+    border-left-color: #038C3E;;
+    border-bottom-color:#f21616;
+}
+
+
+
 
