@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css';
-import miImagen from '../src/assets/logo.jpg';
+import miImagen from '../src/assets/logo2.png';
 
 function Navbar() {
   return (
