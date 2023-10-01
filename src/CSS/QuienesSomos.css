@@ -63,4 +63,8 @@
         width: 8rem; 
         height: 9rem; 
     }
+    .quienes_somos {
+      margin-left: 0;
+      margin-right: 0;
+  }
 }
