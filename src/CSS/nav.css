@@ -1,0 +1,101 @@
+/*###################### CONTENEDOR NAVBAR ####################*/
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #A62E4E;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*############## UL Y LI #####################*/
+.ulnavbar {
+  margin-top: 1.3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+}
+nav > ul > li {
+  color: #000000;
+  margin-right: 2rem;
+}
+nav > ul > li > a {
+  color: #fffefe;
+  font-size: x-large;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(240, 22, 22, 0.5); /* Sombra del texto */
+}
+li a:hover {
+  color: #F2275D;;
+}
+
+.logoimagen {
+  display: flex;
+  margin: 1rem;
+  width: 7rem;
+  height: 3rem;
+}
+
+/*############# CLASES BARRA BUSQUEDA ####################*/
+.busqueda-div{
+  display: none;
+  position: relative;
+  margin-left: 4rem;
+  align-items: center;
+}
+.barrabusqueda {
+  background-color: #ffffff;
+  width: 50rem;
+  height: 3rem;
+}
+.busqueda-icono {
+  position: absolute;
+  right: 10px;
+  color: #191919;
+  height: 2.3rem;
+}
+/*##################################CLASE LOOGO#############################*/
+.menu-icon{
+display: none;
+}
+
+
+@media screen and (max-width: 768px) { 
+  .navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+  }
+  .ulnavbar{
+    display: none;
+  }
+  .menu-icon{
+    display: flex;
+    margin: 2rem;
+  }
+  .busqueda-div{
+    display: none;
+    align-items: center;
+    position: relative;
+    margin-left: 4rem;
+  }
+  .barrabusqueda {
+      display: flex;
+      background-color: #ffffff;
+      width: 12rem;
+      height: 2rem;
+      border-radius: 30px;
+    }   
+   }
+
+
+
+  /*PALETA DE COLORES*/
+.paleta-cattona-1-hex { color: #F2274C; }
+.paleta-cattona-2-hex { color: #F2275D; }
+.paleta-cattona-3-hex { color: #A62E4E; }
+.paleta-cattona-4-hex { color: #302940; }
+.paleta-cattona-5-hex { color: #E9F2F1; }
