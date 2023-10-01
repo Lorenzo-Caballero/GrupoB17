@@ -2,6 +2,7 @@
         background-color: rgba(0, 0, 0, 0);
         display: flex;
         justify-content: center;
+        align-items: center;
         height: 48vh;
         width: 116vh;
         max-width: 100%;
@@ -18,4 +19,13 @@
 
     .carousel-slide.active {
         opacity: 1;
+    }
+    @media screen and (max-width: 768px) {
+        .carousel {
+            height: auto; /* Cambia la altura a automática para adaptarse a la altura del contenido */
+        }
+    
+        .carousel-img {
+            max-height: 100%;
+        }
     }
