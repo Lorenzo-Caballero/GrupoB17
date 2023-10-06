@@ -1,0 +1,70 @@
+.titulo_qs{
+  text-align: left;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: xxx-large;
+  font-family: 'Roboto', sans-serif;
+  }
+
+.cont_imgtext{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 3rem;
+  }
+
+.texto_intro{
+    margin: 0;
+    font-size:x-large;
+}
+.quienes_somos{
+    margin-left: 13vh;
+    margin-right: 13vh;
+    }
+
+.imgfamiliar{
+    margin-top: 4rem;
+    width: 12rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: solid 2px;
+    border-top-color: #f21616;
+    border-right-color:#038C3E;
+    border-left-color: #038C3E;;
+    border-bottom-color:#f21616;
+  }
+
+  @media screen and (max-width: 768px) {
+    .titulo_qs {
+        text-align: center; 
+        font-size: xx-large; 
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .cont_imgtext {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .text {
+        text-align: center; 
+        margin-right: 0;
+    }
+
+    .imgfamiliar {
+        margin-top: 2rem;
+        width: 8rem; 
+        height: 9rem; 
+    }
+    .quienes_somos {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
