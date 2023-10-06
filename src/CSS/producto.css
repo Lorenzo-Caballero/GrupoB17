@@ -31,6 +31,7 @@
     .layout-producto {
       margin-left: 5vh;
       margin-right: 5vh;
+      width: 100%;
   }
 
   .container-producto {
@@ -44,7 +45,8 @@
   }
 
   .heading {
-      font-size: xx-large; 
+      font-size: xx-large;
+      text-align: center;
   }
 
   .placeholder-image {
@@ -54,6 +56,7 @@
   }
 
   .tex-producto {
-      margin-right: 0; 
+      margin-right: 0;
+      display: flex;
   }
 } 
