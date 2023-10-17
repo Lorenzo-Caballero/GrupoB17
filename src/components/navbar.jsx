@@ -1,26 +1,27 @@
-import React from 'react';
-import '../CSS/nav.css';
-import miImagen from '../assets/logo2.png';
-
-function Navbar() {
-  return (
-    <nav className="navbar">
-      <div className="menu-icon">
-        <i className="fas fa-bars"></i>
-      </div>
-      <ul className="ulnavbar">
-          <li><a href="about.asp">Contacto</a></li>
-          <li><a href="contact.asp">Nuestros Productos</a></li>
-          <li><a href="news.asp">Sobre Nosotros</a></li>
-          <li><a href="default.asp">Inicio</a></li>
-      </ul>
-      <div className="busqueda-div">
-        <input className="barrabusqueda" type="text" id="search" placeholder="Explora.." />
+import { Outlet,Link } from "react-router-dom";
+import "../CSS/nav.css"
+import miImagen from "../assets/logo2.png"
+const Navbar = () => {
+    return <div>
+          
+        <nav className="navbar" >
+            <ul className="ulnavbar">
+           
+                <li>
+                    <Link to= "/Contacto">Contacto</Link>
+                </li>
+                <li>
+                    <Link to="/about">Quienes somos</Link>
+                </li>
+                <li>
+                    <Link to="/">Inicio</Link>
+                </li>
+                <img src={miImagen} alt="Logo" className="logoimagen" />
+            </ul>
+        </nav>
+        <hr />
+        <Outlet />
         
-      </div>
-      <img src={miImagen} alt="Logo" className="logoimagen" />
-    </nav>
-  );
+    </div>;
 }
-
 export default Navbar;

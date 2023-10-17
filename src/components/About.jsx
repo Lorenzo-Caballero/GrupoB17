@@ -1,8 +1,8 @@
 import React from 'react';
 import imgFamiliar from '../assets/puente.jpg'
-import '../CSS/QuienesSomos.css';
+import '../CSS/About.css';
 
-const QuienesSomos = () => {
+const About = () => {
   return (
     <div className="quienes_somos">
       
@@ -19,4 +19,4 @@ const QuienesSomos = () => {
   );
 };
 
-export default QuienesSomos;
+export default About;
