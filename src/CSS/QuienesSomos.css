@@ -1,9 +1,18 @@
+.quienes_somos {
+  width: 100%;
+  background-image: url(../assets/rectangulo3.1.png);
+  background-size: 100% 100%;
+  margin-left: 0%;
+}
 .titulo_qs{
-  text-align: left;
+
   margin-top: 5vh;
   margin-bottom: 5vh;
-  font-size: xxx-large;
-  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  -webkit-text-stroke: 2px red;
+  text-stroke: 2px red;
+  font-size: 10vh;
+  font-family: 'FuenteTitulo';
   }
 
 .cont_imgtext{
@@ -20,16 +29,14 @@
   }
 
 .texto_intro{
-    margin: 0;
+    margin: 12%;
+    margin-top: 0%;
     font-size:x-large;
 }
-.quienes_somos{
-    margin-left: 13vh;
-    margin-right: 13vh;
-    }
+
 
 .imgfamiliar{
-    margin-top: 4rem;
+    margin-top: 15vh;
     width: 12rem;
     height: 13rem;
     border-radius: 50%;

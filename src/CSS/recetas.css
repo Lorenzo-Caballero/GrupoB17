@@ -58,7 +58,7 @@ main {
     cursor: pointer;
     text-decoration: none;
     margin: 3vh;
-  
+
   }
   .productos__articulo-ver :hover{
     background-color:  grey;
@@ -70,6 +70,7 @@ main {
     border-radius: 6%;
     align-items: center;
     flex-direction: column;
+    box-shadow: 12px 12px 2px 1px #a62e4ebb;
   }
 
   .productos__articulo-img{

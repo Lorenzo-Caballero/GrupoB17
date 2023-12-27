@@ -1,24 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../CSS/nav.css';
-import miImagen from '../assets/logo2.png';
 
 function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const navbarClass = `navbar ${scrolled ? 'scrolled' : ''}`;
+
   return (
-    <nav className="navbar">
-      <div className="menu-icon">
-        <i className="fas fa-bars"></i>
-      </div>
+    <nav className={navbarClass}>
       <ul className="ulnavbar">
-          <li><a href="about.asp">Contacto</a></li>
-          <li><a href="contact.asp">Nuestros Productos</a></li>
-          <li><a href="news.asp">Sobre Nosotros</a></li>
-          <li><a href="default.asp">Inicio</a></li>
+        <a href="about.asp">Contacto</a>
+        <a href="contact.asp">Nuestros Productos</a>
+        <a href="news.asp">Sobre Nosotros</a>
+        <a href="default.asp">Inicio</a>
       </ul>
-      <div className="busqueda-div">
-        <input className="barrabusqueda" type="text" id="search" placeholder="Explora.." />
-        
-      </div>
-      <img src={miImagen} alt="Logo" className="logoimagen" />
+      <h1 className='logobarra'>CATONA</h1>
     </nav>
   );
 }

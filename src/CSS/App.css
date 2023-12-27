@@ -1,14 +1,17 @@
-.pp-container{
-    display: flex;
-}
-.main-content{
-    margin-top: 12vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 
+.main-content{
+margin: 0%;
+padding: 0%;
 }
-.history-section{  
-    margin-top: 0;
-}
+
+@font-face {
+    font-family: 'FuenteTitulo';
+    src: url('../assets/Sunblock.ttf') format('truetype');
+  }
+
+  .catonafont {
+    color: #ffffff;
+    font-family:'FuenteTitulo';
+    -webkit-text-stroke: 2px red;
+    text-stroke: 2px red;
+  }
