@@ -1,9 +1,12 @@
 .layout-producto{
+    background-image: url(../assets/rectangulo4.png);
+    background-size: 100% 100%;
+    margin-left: 0%;
     display: flex;
     flex-direction: column;
-    margin-left: 13vh;
-    margin-right: 13vh;
+
     font-family: 'Roboto', sans-serif;
+    
   }
   .container-producto{
     display: flex;
@@ -18,6 +21,11 @@
   }
   .heading{
   font-size: xxx-large;
+  color: #ffffff;
+  -webkit-text-stroke: 2px red;
+  text-stroke: 2px red;
+  font-size: 10vh;
+  font-family: 'FuenteTitulo';
   }
   .placeholder-image{
     height: 47vh;

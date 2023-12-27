@@ -1,9 +1,21 @@
 [
-    {
-      "titulo": "Pizza",
-      "imagen": "pizza.png",
-      "nombre": "Pizza",
-      "verRecetaUrl": "#"
-    }
-  ]
+  {
+    "titulo": "Calabazas Rellenas",
+    "imagen": "src/assets/calabaza.png",
+    "nombre": "Calabazas Rellenas",
+    "verRecetaUrl": "#"
+  },
+  {
+    "titulo": "Bastoncitos de Mozzarella",
+    "imagen": "src/assets/bastones.png",
+    "nombre": "Bastoncitos de Mozzarella",
+    "verRecetaUrl": "#"
+  },
+  {
+    "titulo": "Pizza",
+    "imagen": "src/assets/pizza.png",
+    "nombre": "Pizza",
+    "verRecetaUrl": "#"
+  }
   
+]

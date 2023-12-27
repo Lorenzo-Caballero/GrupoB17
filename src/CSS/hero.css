@@ -1,0 +1,170 @@
+
+.contenedorprincipal {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 85%, rgba(0,0,0,1) 100%);
+  display: flex;
+  position: static;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+/* FONDO CON TITULO Y BOTON PRINCIPAL  */
+.boxtitu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding-bottom: 9%;
+  margin-right: 30%;
+}
+
+.titulo {
+  margin-bottom: 15vh;
+  color: #ffffff;
+  -webkit-text-stroke: 2px red;
+  text-stroke: 2px red;
+  font-size: 18vh;
+  line-height: 1;
+  font-family:'FuenteTitulo';
+}
+
+.titulo2 {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 10);
+  margin-bottom: 15vh;
+  color: #ffffff;
+  -webkit-text-stroke: 2px red;
+  text-stroke: 2px red;
+  font-size: 18vh;
+  line-height: 1;
+  text-align: center;
+  font-family:'FuenteTitulo';
+}
+
+
+.hero {
+  background-image: url('../assets/muzafondo2.jpg');
+  z-index: -3;
+  position: relative;
+  background-size: 90% 110%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh; 
+  width: 100%;
+}
+
+.box .rectangle2 {
+  text-align: center;
+  z-index: 0;
+  width: 28vh;
+  height: 8vh;
+  background-color: #07A81C;
+  border-radius: 7px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+
+.textoboton2{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(240, 22, 22, 0.5);
+}
+  /* FONDO SECUNDARIO CON BOTON SECUNDARIO */
+
+ .herowave::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -2; 
+  transition: opacity 0.5s ease; 
+} 
+
+.herowave {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  z-index: -1;
+  height: 100vh;
+  background-image: url('../assets/puente2.jpg');
+  background-size:140% 76%;
+}
+
+.herowave2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  z-index: -1;
+  height: 100vh;
+  background-image: url('../assets/puente2.jpg');
+  background-size:140% 76%;
+}
+
+.box {
+  position:absolute;
+}
+.box2 {
+  position:absolute;
+  margin-right: 5%;
+}
+.box2 .rectangle {
+  margin-bottom: 40%;
+
+  width: 160px;
+  height: 50px;
+  background-color: #db164b;
+  border-radius: 7px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.textoboton{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(240, 22, 22, 0.5);
+  transform: translate(0%, 15%);
+}
+
+.textonosotros{
+  margin-bottom: 45%;
+  margin-left: 19%;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.textonosotros2{
+  margin-bottom: 45%;
+  margin-left: 19%;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 4); /* Sombreado para simular el resplandor */
+  color: #f3f3f3; /* Cambia el color a uno más brillante al hacer hover */
+}
+

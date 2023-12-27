@@ -11,7 +11,7 @@ const Carousel = () => {
     // Estado para rastrear la diapositiva actual
     const [currentIndex, setCurrentIndex] = useState(0);
     const [currentImage, setCurrentImage] = useState(images[currentIndex]); 
-    const [isActive, setIsActive] = useState(true);
+    const [isActive, setIsActive] = useState(false);
 
 // Función para avanzar a la siguiente diapositiva
   const goToNextSlide = () => {
