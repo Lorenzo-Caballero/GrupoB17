@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../CSS/hero.css'; 
-import heroImage from '../assets/solowave2.png';
+import heroImage from '../assets/solowave3.png';
 import imagen2 from '../assets/muzafondo.jpg';
 import imagen3 from '../assets/artesanal.jpg';
-import imagen4 from '../assets/pizza.jpg';
+import imagen4 from '../assets/pizzahero.jpeg';
 
 function Hero() {
   const Carrusel = () => {
@@ -11,6 +11,21 @@ function Hero() {
     const [claseBoton, setClaseBoton] = useState('herowave');
     const [claseBoton2, setClaseBoton2] = useState('textonosotros');
     const [claseBoton3, setClaseBoton3] = useState('titulo');
+
+    const scrollToContacto = () => {
+      const contactoElement = document.getElementById('contacto'); // Usa el id del elemento que deseas enfocar
+      if (contactoElement) {
+        contactoElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    const scrollToHistoria = () => {
+      const historiaElement = document.getElementById('historia'); // Usa el id del elemento que deseas enfocar
+      if (historiaElement) {
+        historiaElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
 
     const manejarHover = () => {
       setClaseBoton('herowave2');
@@ -58,19 +73,19 @@ function Hero() {
     };
 
     return (
-      <div className='contenedorprincipal'>
+      <div id='contenedorprincipal'>
         <div className="boxtitu">
           <h1 className= {claseBoton3}>FABRICA DE <br />MUZARELLA ARTESANAL <br />CATONA</h1>
           <div className="box">
             <div className="rectangle2">
-              <a href="default.asp" className='textoboton2'  onMouseEnter={manejarHover3} onMouseLeave={manejarLeave3}><b>NUESTRO <br />PRODUCTO</b></a>
+              <a className='textoboton2'  onMouseEnter={manejarHover3} onMouseLeave={manejarLeave3} onClick={scrollToContacto}><b>CONTACTANOS</b></a>
             </div>
           </div>
         </div>
 
         <div   className= "box2" onMouseEnter={manejarHover} onMouseLeave={manejarLeave}>
-                <div className="rectangle" onMouseEnter={manejarHover2} onMouseLeave={manejarLeave2}>
-                    <a href="default.asp" className= "textoboton"><b>CONOCENOS</b></a>
+                <div className="rectangle" onMouseEnter={manejarHover2} onMouseLeave={manejarLeave2} onClick={scrollToHistoria}>
+                    <a className= "textoboton" ><b>CONOCENOS</b></a>
                 </div>
         </div>
 

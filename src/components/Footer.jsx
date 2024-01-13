@@ -7,12 +7,14 @@ const Footer = () => {
     <footer>
       <div className="elementos">
         <img src={miImagen} alt="Logo" className="logoimagen" />
-        <p className='p_footer'>TEL: 02236073064</p>
+        <h1 className='p_footer'>TEL: 02236073064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+        <h2>Mozzarella Artesanal Catona, Mar del plata, Argentina, Todos los derechos reservados&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <h2>Seguinos en instagram</h2>
         <div className="div-redes">
-          <a href="https://cdnjs.com/libraries/font-awesome"><i className="redes fa-brands fa-facebook"></i></a>
-          <a href="https://cdnjs.com/libraries/font-awesome"><i className="redes fa-brands fa-whatsapp"></i></a>
-          <a href="https://cdnjs.com/libraries/font-awesome"><i className="redes fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/mozzarella_catona_mdp/"><i className="redes fa-brands fa-instagram"></i></a>
         </div>
+        <p>Diseño web por:</p>
+        <a href="https://www.linkedin.com/in/joel-chasmann/"><i className="redes fa-brands fa-linkedin"></i></a>
       </div>
     </footer>
   );

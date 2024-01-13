@@ -1,5 +1,5 @@
 
-.contenedorprincipal {
+#contenedorprincipal {
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,0) 85%, rgba(0,0,0,1) 100%);
   display: flex;
@@ -21,6 +21,7 @@
 }
 
 .titulo {
+  text-align: center;
   margin-bottom: 15vh;
   color: #ffffff;
   -webkit-text-stroke: 2px red;
@@ -56,22 +57,26 @@
 }
 
 .box .rectangle2 {
+  display: flex;
+  justify-content: center;
+  align-items:center;
   text-align: center;
   z-index: 0;
   width: 28vh;
   height: 8vh;
-  background-color: #07A81C;
+  background-color: #db164b;
   border-radius: 7px;
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
   }
 
+a:hover{
+  cursor: pointer;
+}
 .textoboton2{
     color: #ffffff;
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.4;
+    font-family: 'lexend', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.2;
     text-decoration: none;
     text-shadow: 2px 2px 4px rgba(240, 22, 22, 0.5);
 }
@@ -124,7 +129,6 @@
 }
 .box2 .rectangle {
   margin-bottom: 40%;
-
   width: 160px;
   height: 50px;
   background-color: #db164b;
@@ -137,11 +141,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'lexend', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
   text-decoration: none;
   text-shadow: 2px 2px 4px rgba(240, 22, 22, 0.5);
-  transform: translate(0%, 15%);
+  transform: translate(0%, 25%);
 }
 
 .textonosotros{
@@ -150,7 +155,7 @@
   position: absolute;
   color: #ffffff;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'lexend', sans-serif;
   font-size: 2rem;
   text-decoration: none;
 }
