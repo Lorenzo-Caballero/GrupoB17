@@ -10,3 +10,4 @@ vercel
 
 npm install react-whatsapp-widget
 npm install react-transition-group --save
+npm install @react-google-maps/api

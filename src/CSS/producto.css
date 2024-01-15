@@ -34,34 +34,40 @@
 
   @media screen and (max-width: 768px) { 
     #layout-producto {
-      margin-left: 5vh;
-      margin-right: 5vh;
       width: 100%;
   }
 
   .container-producto {
-      margin-top: 5vh;
-      margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
   }
 
   .content-producto {
       flex-direction: column; 
       text-align: center;
+      height: 100%;
   }
 
-  .heading {
-      font-size: xx-large;
-      text-align: center;
-  }
 
   .placeholder-image {
       height: auto; 
-      width: 100%; 
-      max-width: 100%; 
+      width: 50%; 
+      max-width: 50%; 
   }
 
-  .tex-producto {
-      margin-right: 0;
-      display: flex;
+
+  .titulo_qs2{
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'lexend';
+    flex-direction: column;
+  }
+  .texto_producto{
+    text-align: center;
+    margin: 1vh;
+    font-size:1.5rem;
   }
 } 

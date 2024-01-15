@@ -14,7 +14,6 @@ const Contacto = () => {
         <a href="https://www.instagram.com/mozzarella_catona_mdp?igsh=MTdqaWJ2dDZkZzl2cA==" target="_blank"><i class="fa-brands fa-instagram icono"></i></a>
       </div>
     </div>
-
   );
 };
 

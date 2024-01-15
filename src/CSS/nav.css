@@ -87,6 +87,7 @@ display: none;
     display: flex;
     flex-direction: row-reverse;
     align-content: center;
+    width: 100%;
   }
   .ulnavbar{
     display: none;

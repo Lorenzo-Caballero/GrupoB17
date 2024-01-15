@@ -11,11 +11,13 @@ const Recetas = () => {
   const openModal = (receta) => {
     setSelectedReceta(receta);
     setShowModal(true);
+    setArticulosContainerDisplay('none');
   };
 
   const closeModal = () => {
     setSelectedReceta(null);
     setShowModal(false);
+    setArticulosContainerDisplay('flex');
   };
 
   const recetas = data;
@@ -32,6 +34,7 @@ const Recetas = () => {
   };
 
   const recetaActual = recetas[currentIndex];
+  const [articulosContainerDisplay, setArticulosContainerDisplay] = useState('flex');
 
   return (
     <main id='main-recetas'>
@@ -41,8 +44,9 @@ const Recetas = () => {
         </div>
       </div>
 
+      <div className='contenedor-carousel-modal'>
       <div className="carousel">
-        <div className="productos__articulos-container">
+      <div className={`productos__articulos-container ${articulosContainerDisplay === 'none' ? 'oculto' : ''}`}>
           <button className="btn-caru" onClick={goToPrevSlide}>&#60;</button>
           <SwitchTransition >
             <CSSTransition classNames="fade" key={recetaActual.id} addEndListener={(node, done) => node.addEventListener("transitionend", done, false)}>
@@ -59,16 +63,20 @@ const Recetas = () => {
       </div>
 
       {showModal && selectedReceta && (
-        <div className="modal">
+        <div className='modal-container'> 
+            <div className="modal">
           <div className="modal-content">
-            <span className="close-btn" onClick={closeModal}>&times;</span>
-            <h2>{selectedReceta.titulo}</h2>
-            <img src={selectedReceta.imagen} alt={selectedReceta.titulo} />
-            <p>Ingredientes: {selectedReceta.ingredientes.join(', ')}</p>
-            <p>Preparacion: {selectedReceta.preparacion}</p>
+              <span className="close-btn" onClick={closeModal}>&times;</span>
+              <h2 className='productos__articulo-nombre2'>{selectedReceta.titulo}</h2>
+              <img className='modal-img'src={selectedReceta.imagen} alt={selectedReceta.titulo} />
+            <p className='productos__articulo-ingrediente2'><b>Ingredientes: </b>{selectedReceta.ingredientes.join(', ')}</p>
+            <p className='productos__articulo-ingrediente2'><b>Preparacion: </b> {selectedReceta.preparacion}</p>
           </div>
         </div>
+        </div>
+        
       )}
+      </div>
     </main>
   );
 };
