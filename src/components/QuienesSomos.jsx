@@ -1,20 +1,19 @@
 import React from 'react';
-import imgFamiliar from '../assets/puente.jpg'
+import imgFamiliar from '../assets/puente4.jpg'
 import '../CSS/QuienesSomos.css';
 
 const QuienesSomos = () => {
   return (
-    <div className="quienes_somos">
-      <div className="cont_imgtext">
-        <div className="text">
-          <h1 className="titulo_qs">¿Quiénes somos?</h1>
+    <div id='historia'>
+        <div className="contenedor_quienes">
+          <h1 className="titulo_qs">Nuestra Historia<br />Puente a Nuestros Orígenes<img className="imgfamiliar" src={imgFamiliar} alt="" /></h1>
           <p className='texto_intro'>
-            Somos una empresa familiar que nos dedicamos a la elaboración de Queso Mozarella. ¿Por qué Catona? Nuestro nombre proviene de mi Abuela Materna "Petrona Acosta" que de pequeños no nos salía pronunciar su nombre y le quedó Catona en lugar de Petrona, quien era oriunda de la ciudad de Santa Fe, de donde son nuestros padres, es por eso que nuestro logo también está presente en el Puente Colgante de Santa Fe, puente ING. Marcial Candioti en homenaje a nuestros orígenes. Nos destacamos por una venta directa de fábrica con una relación estrecha con nuestros Clientes. 
+            Somos una empresa <b>familiar</b> dedicada a la elaboración de Queso Mozarella. 
+            Nos destacamos por una venta directa de <b>fábrica</b> y por la atencion y cuidado que le damos a cada cliente, ya que para nosotros ocupan el primer lugar.<br></br><b>¿Por qué Catona?</b> El nombre proviene de nuestra Abuela Materna "Petrona Acosta". Como no nos salía pronunciar su nombre le quedó Catona en lugar de Petrona.<br></br>Ella era oriunda de la ciudad de Santa Fe, de donde son nuestros padres, es por eso que en nuestro logo también está presente el <b>Puente Colgante de Santa Fe</b>, en homenaje a nuestros orígenes.
           </p>
-        </div>
-        <img className="imgfamiliar" src={imgFamiliar} alt="" />
       </div>
     </div>
+
   );
 };
 

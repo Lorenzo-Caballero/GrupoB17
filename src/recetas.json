@@ -1,21 +1,137 @@
 [
   {
+    "id":0,
     "titulo": "Calabazas Rellenas",
-    "imagen": "src/assets/calabaza.png",
-    "nombre": "Calabazas Rellenas",
-    "verRecetaUrl": "#"
+    "imagen": "src/assets/calabaza.jpg",
+    "nombre": "Calabazas Rellenas De Mozzarella Catona",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Calabazas", "Carne molida", "Cebolla", "Ajo", "Tomate", "Aceite de oliva", "Sal", "Pimienta"],
+    "preparacion": "1. Corta las calabazas por la mitad y retira las semillas. 2. Saltea la cebolla y el ajo en aceite de oliva. 3. Agrega la carne molida y cocina hasta que esté dorada. 4. Rellena las calabazas con la mezcla. 5. Cubre con Mozzarella Catona y hornea hasta que se derrita el queso."
   },
-  {
+  { 
+    "id":1,
     "titulo": "Bastoncitos de Mozzarella",
-    "imagen": "src/assets/bastones.png",
+    "imagen": "src/assets/bastones.jpg",
     "nombre": "Bastoncitos de Mozzarella",
-    "verRecetaUrl": "#"
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Pan rallado", "Huevo", "Harina", "Aceite", "Salsa marinara"],
+    "preparacion": "1. Corta Mozzarella Catona en bastones. 2. Pasa cada bastón por harina, huevo batido y pan rallado. 3. Fríe en aceite caliente hasta que estén dorados. 4. Sirve con salsa marinara para mojar."
   },
   {
-    "titulo": "Pizza",
-    "imagen": "src/assets/pizza.png",
+    "id":2,
+    "titulo": "Pizza a la Catona",
+    "imagen": "src/assets/pizza.jpg",
     "nombre": "Pizza",
-    "verRecetaUrl": "#"
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Tomate", "Albahaca", "Aceite de oliva", "Sal", "Masa para pizza"],
+    "preparacion": "1. Extiende la masa sobre una bandeja. 2. Cubre con Mozzarella Catona, rodajas de tomate y albahaca. 3. Hornea hasta que la masa esté dorada. 4. Rocía con aceite de oliva y agrega sal al gusto."
+  },
+  {
+    "id":3,
+    "titulo": "Lasagna de Mozzarella Catona",
+    "imagen": "src/assets/lasaña.jpg",
+    "nombre": "Lasagna de Mozzarella Catona",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Carne molida", "Salsa de tomate", "Queso ricotta", "Lasagna noodles", "Ajo", "Cebolla", "Aceite de oliva", "Sal", "Pimienta"],
+    "preparacion": "1. Cocina las lasagna noodles según las instrucciones del paquete. 2. Sofríe la cebolla y el ajo en aceite de oliva. 3. Agrega la carne molida y cocina hasta que esté dorada. 4. Mezcla la salsa de tomate y condimenta con sal y pimienta. 5. En un molde, alterna capas de noodles, carne, queso ricotta y Mozzarella Catona. 6. Hornea hasta que el queso se derrita y burbujee."
+  },
+  {
+    "id":4,
+    "titulo": "Ensalada César con Mozzarella Catona",
+    "imagen": "src/assets/cesar.jpg",
+    "nombre": "Ensalada César con Mozzarella Catona",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Lechuga romana", "Crutones", "Salsa César", "Pollo a la parrilla", "Parmesano rallado"],
+    "preparacion": "1. Lava y corta la lechuga romana. 2. Agrega crutones y Mozzarella Catona en trozos. 3. Añade pollo a la parrilla en tiras. 4. Mezcla con salsa César. 5. Espolvorea con parmesano rallado antes de servir."
+  },
+  {
+    "id":5,
+    "titulo": "Rollitos de Mozzarella Catona y Espinacas",
+    "imagen": "src/assets/rollito.jpg",
+    "nombre": "Rollitos de Mozzarella Catona y Espinacas",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Espinacas", "Masa para hojaldre", "Ajo", "Aceite de oliva", "Sal", "Pimienta"],
+    "preparacion": "1. Saltea las espinacas con ajo en aceite de oliva. 2. Extiende la masa para hojaldre y corta en tiras. 3. Coloca espinacas y Mozzarella Catona en cada tira y enrolla. 4. Hornea hasta que estén dorados. 5. Sirve caliente."
+  },
+  {
+    "id":6,
+    "titulo": "Risotto de Champiñones con Mozzarella Catona",
+    "imagen": "src/assets/risoto.jpg",
+    "nombre": "Risotto de Champiñones con Mozzarella Catona",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Arroz para risotto", "Champiñones", "Cebolla", "Caldo de verduras", "Vino blanco", "Aceite de oliva", "Queso parmesano", "Sal", "Pimienta"],
+    "preparacion": "1. Sofríe la cebolla en aceite de oliva hasta que esté transparente. 2. Añade arroz y cocina por unos minutos. 3. Agrega vino blanco y deja evaporar. 4. Incorpora los champiñones y cocina. 5. Agrega caldo de verduras gradualmente, revolviendo constantemente. 6. Una vez que el arroz esté al dente, añade Mozzarella Catona, queso parmesano, sal y pimienta al gusto."
+  },
+  {
+    "id":7,
+    "titulo": "Panini de Pollo con Pesto y Mozzarella Catona",
+    "imagen": "src/assets/panini.png",
+    "nombre": "Panini de Pollo con Pesto y Mozzarella Catona",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Pechuga de pollo", "Pan ciabatta", "Pesto", "Tomate", "Albahaca", "Aceite de oliva", "Sal", "Pimienta"],
+    "preparacion": "1. Cocina la pechuga de pollo y córtala en tiras. 2. Corta el pan ciabatta por la mitad. 3. Unta pesto en ambas mitades del pan. 4. Coloca las tiras de pollo, rodajas de tomate y Mozzarella Catona. 5. Añade hojas de albahaca, sal y pimienta. 6. Cierra el pan y cocina en una prensa para panini hasta que esté dorado y el queso se derrita."
+  },
+  {
+    "id":8,
+    "titulo": "Mozzarella Catona con Tomates Asados y Albahaca",
+    "imagen": "src/assets/tomateasado.jpg",
+    "nombre": "Mozzarella Catona con Tomates Asados y Albahaca",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Tomates cherry", "Albahaca fresca", "Aceite de oliva", "Vinagre balsámico", "Sal", "Pimienta"],
+    "preparacion": "1. Corta los tomates cherry por la mitad y ásalos en el horno con aceite de oliva, sal y pimienta. 2. Coloca Mozzarella Catona en un plato. 3. Distribuye los tomates asados sobre el queso. 4. Decora con hojas de albahaca fresca. 5. Riega con un poco de vinagre balsámico y sirve."
+  },
+  {
+    "id":9,
+    "titulo": "Mozzarella Catona al Horno con Tomate y Ajo",
+    "imagen": "src/assets/tomate.jpg",
+    "nombre": "Mozzarella Catona al Horno con Tomate y Ajo",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Tomates maduros", "Ajo picado", "Aceite de oliva", "Albahaca fresca", "Orégano", "Sal", "Pimienta"],
+    "preparacion": "1. Corta los tomates en rodajas y colócalos en una fuente para horno. 2. Espolvorea ajo picado sobre los tomates y rocía con aceite de oliva. 3. Coloca rodajas de Mozzarella Catona encima. 4. Espolvorea con orégano, sal y pimienta al gusto. 5. Hornea hasta que el queso se derrita y burbujee. 6. Decora con hojas de albahaca fresca antes de servir."
+  },
+  {
+    "id":10,
+    "titulo": "Mozzarella Catona con Miel y Frutos Secos",
+    "imagen": "src/assets/miel.jpg",
+    "nombre": "Mozzarella Catona con Miel y Frutos Secos",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Miel", "Nueces", "Almendras", "Higos secos", "Pan tostado"],
+    "preparacion": "1. Coloca rebanadas de Mozzarella Catona en un plato. 2. Rocía miel sobre el queso. 3. Agrega nueces, almendras y higos secos picados. 4. Sirve con pan tostado."
+  },
+  {
+    "id":11,
+    "titulo": "Mozzarella Catona con Pimientos Asados y Aceitunas",
+    "imagen": "src/assets/pimiento.jpg",
+    "nombre": "Mozzarella Catona con Pimientos Asados y Aceitunas",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Pimientos rojos y amarillos", "Aceitunas negras", "Aceite de oliva", "Tomillo fresco", "Sal", "Pimienta"],
+    "preparacion": "1. Asa los pimientos en el horno hasta que la piel se desprenda. 2. Pela y corta en tiras. 3. Coloca Mozzarella Catona en un plato. 4. Distribuye las tiras de pimientos y aceitunas sobre el queso. 5. Rocía con aceite de oliva, espolvorea tomillo fresco, sal y pimienta. 6. Sirve como aperitivo o entrada."
+  },
+  {
+    "id":12,
+    "titulo": "Mozzarella Catona con Pesto de Albahaca",
+    "imagen": "src/assets/pesto.png",
+    "nombre": "Mozzarella Catona con Pesto de Albahaca",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Albahaca fresca", "Piñones", "Queso parmesano rallado", "Ajo", "Aceite de oliva", "Sal", "Pimienta"],
+    "preparacion": "1. Prepara un pesto combinando albahaca, piñones, queso parmesano, ajo, sal y pimienta en un procesador de alimentos. 2. Coloca rebanadas de Mozzarella Catona en un plato. 3. Cubre con el pesto recién preparado. 4. Rocía con un poco de aceite de oliva y decora con hojas de albahaca antes de servir."
+  },
+  {
+    "id":13,
+    "titulo": "Mozzarella Catona con Salsa de Tomate Picante",
+    "imagen": "src/assets/picante.png",
+    "nombre": "Mozzarella Catona con Salsa de Tomate Picante",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Tomates enlatados", "Chiles rojos", "Ajo", "Aceite de oliva", "Albahaca fresca", "Sal", "Pimienta"],
+    "preparacion": "1. Prepara una salsa de tomate picante salteando ajo y chiles rojos en aceite de oliva. 2. Agrega tomates enlatados y cocina a fuego lento hasta que la salsa espese. 3. Coloca Mozzarella Catona en un plato. 4. Vierte la salsa de tomate picante sobre el queso. 5. Adorna con hojas de albahaca fresca, sal y pimienta al gusto."
+  },
+  {
+    "id":14,
+    "titulo": "Tostadas de Aguacate con Mozzarella Catona",
+    "imagen": "src/assets/aguacate.jpg",
+    "nombre": "Tostadas de Aguacate con Mozzarella Catona",
+    "verRecetaUrl": "#",
+    "ingredientes": ["Mozzarella Catona", "Aguacate maduro", "Pan integral", "Tomates cherry", "Cilantro fresco", "Jugo de limón", "Sal", "Pimienta"],
+    "preparacion": "1. Tuesta rebanadas de pan integral. 2. Unta aguacate maduro en cada tostada. 3. Coloca rodajas de Mozzarella Catona sobre el aguacate. 4. Añade tomates cherry cortados por la mitad. 5. Rocía con jugo de limón y espolvorea con cilantro fresco, sal y pimienta al gusto."
   }
-  
 ]

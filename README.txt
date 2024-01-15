@@ -3,3 +3,11 @@ la branch develop la utilizaremos para tener una version "beta" de la app, en la
 develop es una version en desarrollo , mientras que en main , sera nuestra version estable.
 
 
+usados en este proyecot:
+npm
+vite
+vercel
+
+npm install react-whatsapp-widget
+npm install react-transition-group --save
+npm install @react-google-maps/api

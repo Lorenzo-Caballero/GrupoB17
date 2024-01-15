@@ -1,70 +1,73 @@
-.layout-producto{
-    background-image: url(../assets/rectangulo4.png);
-    background-size: 100% 100%;
-    margin-left: 0%;
-    display: flex;
-    flex-direction: column;
 
-    font-family: 'Roboto', sans-serif;
-    
+  .titulo_qs2{
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'lexend';
+    flex-direction: column;
   }
   .container-producto{
-    display: flex;
-    margin-top:10vh;
-    margin-bottom: 10vh;
-    flex-direction: column;
-  }
-  .content-producto{
+    height: 60vh;
+    background-image: url(/src/assets/fondoredes.jpg);
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    font-size: x-large;
-  }
-  .heading{
-  font-size: xxx-large;
-  color: #ffffff;
-  -webkit-text-stroke: 2px red;
-  text-stroke: 2px red;
-  font-size: 10vh;
-  font-family: 'FuenteTitulo';
   }
   .placeholder-image{
-    height: 47vh;
-    width: 55vh;
+    border: solid 4px;
+    border-top-color: #f21616;
+    border-right-color:#038C3E;
+    border-left-color: #038C3E;;
+    border-bottom-color:#f21616;
+    border-radius: 100%;
+    width: 50vh;
+    height: 50vh;
   }
-.tex-producto{
-  margin-right: 10vh;
-}
+
+  .texto_producto{
+    text-align: center;
+    margin: 10vh;
+    font-size:4.7vh;
+  }
 
   @media screen and (max-width: 768px) { 
-    .layout-producto {
-      margin-left: 5vh;
-      margin-right: 5vh;
+    #layout-producto {
       width: 100%;
   }
 
   .container-producto {
-      margin-top: 5vh;
-      margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
   }
 
   .content-producto {
       flex-direction: column; 
       text-align: center;
+      height: 100%;
   }
 
-  .heading {
-      font-size: xx-large;
-      text-align: center;
-  }
 
   .placeholder-image {
       height: auto; 
-      width: 100%; 
-      max-width: 100%; 
+      width: 50%; 
+      max-width: 50%; 
   }
 
-  .tex-producto {
-      margin-right: 0;
-      display: flex;
+
+  .titulo_qs2{
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'lexend';
+    flex-direction: column;
+  }
+  .texto_producto{
+    text-align: center;
+    margin: 1vh;
+    font-size:1.5rem;
   }
 } 
